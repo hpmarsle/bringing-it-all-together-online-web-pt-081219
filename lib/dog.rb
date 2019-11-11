@@ -47,7 +47,7 @@ class Dog
   #   else
   #     dog = self.create(name: name, breed: breed)
   #   end
-  #   song
+  #   dog
   # end
   def self.find_by_name(name)
     sql = "SELECT * FROM dogs WHERE name = ?"
